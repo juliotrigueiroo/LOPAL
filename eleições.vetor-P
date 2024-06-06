@@ -1,8 +1,8 @@
 
-/*  DescriÁ„o:
+/*  Descri√ß√£o:
  * 
- * 	Este exemplo ilustra o uso do laÁo "faca-enquanto", simulando uma eleiÁ„o entre 
- * 	dois candidatos. O exemplo ilustra tambÈm o uso do comando "escolha" para contabilizar
+ * 	Este exemplo ilustra o uso do la√ßo "faca-enquanto", simulando uma elei√ß√£o entre 
+ * 	dois candidatos. O exemplo ilustra tamb√©m o uso do comando "escolha" para contabilizar
  * 	os votos de cada candidato.
  * 	
  *  Autor: Leandro Gaudio Rosa
@@ -25,17 +25,17 @@ programa
 		
 		inteiro voto, reiniciar, n, i
 
-		escreva("Quantos candidatos haver„o na eleiÁ„o?\n")
+		escreva("Quantos candidatos haver√£o na elei√ß√£o?\n")
     leia(n)
 
     se(n>1){
     para(i=0; i<n; i++)
-    escreva("Quem ser· o candidato",i, "?\n")
+    escreva("Quem ser√° o candidato",i, "?\n")
     leia(candidato)
     nomes[i]= candidato
     }
     senao{
-      escreva("valor inv·lido")
+      escreva("valor inv√°lido")
     }
     escreva("\n",nomes[0])
 
@@ -50,7 +50,7 @@ programa
 			escreva("  2 -> ", candidato2, "\n")
 			escreva("  3 -> Branco\n")
 			
-			escreva("\nQualquer n˙mero diferente de 0, 1, 2 e 3 anular· o seu voto\n")
+			escreva("\nQualquer n√∫mero diferente de 0, 1, 2 e 3 anular√° o seu voto\n")
 			escreva("Digite seu voto: ")
 			
 			leia(voto)
@@ -59,7 +59,7 @@ programa
 			escolha (voto)
 			{
 				caso 0:
-					escreva ("VotaÁ„o encerrada!\n")
+					escreva ("Vota√ß√£o encerrada!\n")
 				pare
 				
 				caso 1: 
@@ -75,7 +75,7 @@ programa
 			 	pare
 			 	
 			 	caso contrario:
-			 		nulos = nulos + 1 // OpÁ„o inv·lida. Soma um voto nulo
+			 		nulos = nulos + 1 // Op√ß√£o inv√°lida. Soma um voto nulo
 			}			 
 		}
 		enquanto(voto != 0)
@@ -100,10 +100,10 @@ programa
 			escreva("Brancos: ", brancos, " voto(s). ", porcentagem_brancos, " % do total\n")
 			escreva("Nulos: ", nulos, " voto(s). ", porcentagem_nulos, " % do total\n")
 		}
-    escreva("Deseja reiniciar a sua eleiÁ„o \n")
+    escreva("Deseja reiniciar a sua elei√ß√£o \n")
     escreva(" 1) Sim \n")
-    escreva(" 2) N„o \n")
-    escreva("Qual ser· sua opÁ„o:  ")
+    escreva(" 2) N√£o \n")
+    escreva("Qual ser√° sua op√ß√£o:  ")
     leia(reiniciar)
 
     escolha (reiniciar)
@@ -112,7 +112,7 @@ programa
     inicio()
     pare
     caso 2:
-    escreva("EleiÁ„o Finalizada")
+    escreva("Elei√ß√£o Finalizada")
     }
 
 
