@@ -3,7 +3,7 @@ programa {
     inteiro n[5]
 
    para(inteiro i = 0; i < 5; i++){
-    escreva("Digite o número do índice ",i,"?")
+    escreva("Digite o nÃºmero do Ã­ndice ",i,"?")
     leia(n[i])
    }
    escreva(n)
@@ -14,38 +14,38 @@ programa {
   leia (n1, n2, n3, n4, n5)
 
   se(n1 % 2 == 1){
-    escreva(" N1 é Impar!\n")
+    escreva(" N1 Ã© Impar!\n")
   }
  senao{
-    escreva(" N1 é Par!\n")
+    escreva(" N1 Ã© Par!\n")
  }
 
   se(n2 % 2 == 1){
-    escreva(" N2 é impar!\n")
+    escreva(" N2 Ã© impar!\n")
   }
   senao{
-    escreva(" N2 é Par!\n")
+    escreva(" N2 Ã© Par!\n")
   }
     
   se(n3 % 2 == 1){
-    escreva(" N3 é Impar\n")
+    escreva(" N3 Ã© Impar\n")
   }
   senao{
-    escreva(" N3 é Par!\n")
+    escreva(" N3 Ã© Par!\n")
   }
     
   se(n4 % 2 == 1){
-    escreva(" N4 é Impar\n")
+    escreva(" N4 Ã© Impar\n")
   }
   senao{
-    escreva(" N4 é Par\n")
+    escreva(" N4 Ã© Par\n")
   }
 
   se( n5 % 2 == 1){
-    escreva(" N5 é impar\n")
+    escreva(" N5 Ã© impar\n")
   }
   senao{
-    escreva(" N5 é Par!\n")
+    escreva(" N5 Ã© Par!\n")
   }
   }
   }
