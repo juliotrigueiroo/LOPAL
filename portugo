@@ -15,6 +15,6 @@ programa {
     }
    }
   }
-  escreva("O maior valor È:",maior)
-  esreva("\no maior valor est· armazenado no Ìndicie", indicie)
+  escreva("O maior valor √©:",maior)
+  esreva("\no maior valor est√° armazenado no √≠ndicie", indicie)
 }
