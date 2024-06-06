@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 10:02:35 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjA1OzIwMjQtMDItMDY7IjA4OjAxOjU1ICI7MjI1MA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjA1OzIwMjQtMDItMDY7IjEwOjAyOjM1ICI7MTsyMzUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite a letra a: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;digite b letra b e: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;digite c letra c e:&quot;" newline="True"/>
+            <input variable="c"/>
+            <output expression="&quot;digite d letra d e: &quot;" newline="True"/>
+            <input variable="d"/>
+            <assign variable="resultado" expression="a + b + c + d"/>
+            <output expression="&quot;Escreva o resultado: &quot; &amp; resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
